@@ -1,14 +1,14 @@
 {
-  "name": "react-redux-webpack-boilerplate-x",
-  "version": "1.1.1",
-  "description": "ES6 React Redux Webpack boilerplate",
-  "homepage": "https://github.com/Xotic750/react-redux-webpack-boilerplate-x.git",
+  "name": "Weld.io-Test",
+  "version": "1.0.0",
+  "description": "Symbols and Elements, Example Slug Editor",
+  "homepage": "https://github.com/Xotic750/Weld.io-Test.git",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Xotic750/react-redux-webpack-boilerplate-x.git"
+    "url": "https://github.com/Xotic750/Weld.io-Test.git"
   },
   "bugs": {
-    "url": "https://github.com/Xotic750/react-redux-webpack-boilerplate-x/issues"
+    "url": "https://github.com/Xotic750/Weld.io-Test/issues"
   },
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
     "clean": "rimraf dist",
     "production": "npm run clean && webpack --bail --config webpack.production.config.js --progress --profile --colors",
     "lint": "eslint app",
+    "lint-fix": "npm run lint -- --fix",
     "test": "mocha --compilers js:babel-core/register --recursive ./tests/**/*.js",
     "precommit": "npm run security && npm run lint && npm test",
     "prepush": "npm run security && npm run lint && npm test",

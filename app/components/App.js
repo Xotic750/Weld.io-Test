@@ -26,7 +26,7 @@ export default class App extends Component {
   }
 
   onChangeHandler(stateKey, targetValue) {
-    this.setState({[stateKey]: targetValue });
+    this.setState({ [stateKey]: targetValue });
   }
 
   onRequestCloseSnackBarHandler() {
